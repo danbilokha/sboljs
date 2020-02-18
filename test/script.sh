@@ -6,7 +6,7 @@ do
   validation_result=$(node ReadWriteTestlibSBOL.js $PWD/$f);
   if [[ $validation_result != "" ]]; then
       # Not sure why this does not work, new lines are lost
-      # echo $validation_result
+      echo $validation_result
       node ReadWriteTestlibSBOL.js $PWD/$f;
       echo "   Failure!"
       if [[ $f != "SBOLTestSuite/SBOL2_nc/SBOL1and2Test.xml" &&

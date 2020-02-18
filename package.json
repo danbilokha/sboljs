@@ -26,7 +26,11 @@
     }
   ],
   "devDependencies": {
+    "browserify": "^16.5.0",
     "cheerio": "^0.19.0",
+    "cucumber": "^6.0.5",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "glob": "^6.0.1"
   }
 }
