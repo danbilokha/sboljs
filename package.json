@@ -4,7 +4,7 @@
   "description": "BSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.",
   "main": "lib/SBOLDocument.js",
   "scripts": {
-    "test": "cd test && bash script.sh",
+    "test": "cd src/test && bash script.sh",
     "test-cucumber": "cucumber-js"
   },
   "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
